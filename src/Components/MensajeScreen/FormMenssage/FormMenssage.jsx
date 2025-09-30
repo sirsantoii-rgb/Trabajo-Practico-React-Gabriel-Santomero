@@ -7,7 +7,7 @@ import { TiPencil } from "react-icons/ti";
 import { useState } from 'react';
 import DiceRoll from './RollTools/DiceRoll';
 import AtackTools from './RollTools/AtackTools';
-import SkillsTools from './RollTools/Skillstools';
+import SkillsTools from './RollTools/SkillsTools';
 
 
 
