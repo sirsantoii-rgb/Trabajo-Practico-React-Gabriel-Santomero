@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.stats__menu__container{
+    position: absolute;
+    background-color: rgb(23, 2, 46);
+    width: 40%;
+    height: 90vh;
+    z-index: 1000;
+    right: 0px;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stats__menu__info__user{
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: rgb(18, 1, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 3mm rgba(174, 82, 194, 0.61);
+}
+
+.stats__menu__name{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+
+.stats__menu{
+    display: flex;
+}
+
+.stats__menu__level{
+        width: 100%;
+    height: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 240, 240);
+    color: rgb(141, 141, 141);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.stats__menu__clase{
+        width: 100%;
+    height: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.stats__menu__juego{
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(141, 141, 141);
+    border: 1px solid rgb(105, 105, 105);
+}
+
+.stats__menu__vida{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.stats__menu__vida-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.stats__menu__info-atributes{
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: rgb(18, 1, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 3mm rgba(174, 82, 194, 0.61);
+}
+
+.stats__menu__info-inventary{
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: rgb(18, 1, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 3mm rgba(174, 82, 194, 0.61);
+}
+
+.stats__menu__atributes-title{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+
+.stats__menu__atributes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stats__atributes{
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 20px 3px 20px;
+
+}
+
+.stats__menu__item{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 100
+}
+
+.stats__menu__button{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(14, 182, 104);
+    border-radius: 5px;
+    box-shadow: 0 0 3mm rgba(174, 82, 194, 0.61);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}

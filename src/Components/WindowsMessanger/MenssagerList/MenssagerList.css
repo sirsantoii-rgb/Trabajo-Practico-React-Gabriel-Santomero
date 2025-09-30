@@ -1,0 +1,11 @@
+.windows__messanger__list{
+    background-color: rgb(25, 7, 44);
+    width: 30vw;
+    height: 100%;
+    border-right:1px solid rgb(124, 124, 124) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 200px;
+}

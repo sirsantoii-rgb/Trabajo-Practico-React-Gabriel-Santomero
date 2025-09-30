@@ -1,0 +1,76 @@
+.form__menssage-container{
+    height: 15vh;   
+    width: 70%;
+    background-color: rgb(29, 2, 58);
+    position: fixed;
+    bottom: 0; 
+    border-top: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.form__menssage{
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    background-color:rgb(65, 4, 129) ;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.form__menssage-text{
+    border-radius: 8px;
+    width: 70%;
+    height: 50%;
+    margin-left: 20px;
+    box-shadow: 0 0 4mm rgba(214, 101, 240, 0.726);
+}
+
+.form__menssage__buttons{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.form__menssage-submit{
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(14, 182, 104) ;
+    color:  white;
+}
+
+.form__menssage__buttons__roll{
+    width: 20%;
+    height: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 83, 83);
+    color: white;
+    background-color: rgba(21, 6, 37, 0);
+    padding: 2px 10px 2px 10px;
+    box-shadow: 0 0 4mm rgba(214, 101, 240, 0.726);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.form__menssage__buttons__roll:hover{
+    background-color: rgba(14, 182, 104);
+    color: black;
+}
