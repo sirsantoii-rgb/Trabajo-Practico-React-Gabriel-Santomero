@@ -1,5 +1,5 @@
 import React from 'react'
-import './Skillstools.css'
+import './SkillsTools.css'
 import { GiApothecary } from "react-icons/gi";
 import { GiArrowsShield } from "react-icons/gi";
 import { GiArmoredBoomerang } from "react-icons/gi";
