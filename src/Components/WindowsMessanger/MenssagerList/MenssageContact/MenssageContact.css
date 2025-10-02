@@ -2,9 +2,9 @@
 .menssage__contact{
     background-color: rgb(38, 26, 49) ;
     width: 27vw;
-    height: 12vh;
+    height: 13vh;
     margin-top: 15px;
-    border-radius: 5px ;
+    border-radius: 10px ;
     display: flex;
     justify-content: left;
     align-items: center
@@ -38,7 +38,7 @@
 }
 
 .online{
-    background-color: green;
+    background-color: rgb(7, 230, 7);
 }
 
 .offline{
@@ -69,31 +69,34 @@
 .level{
     width: 100%;
     height: 100%;
-    padding: auto;
+    padding: 2px 10px 2px 10px;
     border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
-    color: rgb(141, 141, 141);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(152, 161, 188);
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    font-weight: 200;
+    font-size: 13px;
+    font-weight: bold;
     
 }
 
 .clase{
     width: 100%;
     height: 100%;
-    padding: auto;
+    padding: 2px 10px 2px 10px;
     border-radius: 5px;
     background-color: black;
     color: aliceblue;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .game_info{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
     gap: 10px;
     margin-top: 10px;
 }
@@ -101,16 +104,17 @@
 
 .contacto__frase{
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 12px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(141, 141, 141);
+    color: rgb(255, 255, 255);
 }
 
 .contacto__game{
     margin-left: 20px;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(141, 141, 141);
-    border: 1px solid rgb(0, 0, 0);
+    padding: 2px 10px 0 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
 }
