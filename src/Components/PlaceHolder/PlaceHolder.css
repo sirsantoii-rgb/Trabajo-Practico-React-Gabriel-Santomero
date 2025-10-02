@@ -4,10 +4,44 @@
     box-sizing: border-box;
 }
 .placeHolder{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #6c6580;
+    gap: 20px;
+    background-color: rgb(12, 4, 22) ;
+}
+
+.placeHolder__Logo{
+    color: rgb(65, 21, 119);
+}
+.placeHolder__title{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    word-break: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.placeHolder__text{
+    color: rgb(167, 167, 167);
+    width: 50%;
+    font-size: 20px;
+    font-weight: 300;
+    word-break: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.placeHolder__details{
+    color: rgb(167, 167, 167);
+    width: 50%;
+    font-size: 15px;
+    font-weight: 300;
+    word-break: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
