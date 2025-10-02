@@ -42,4 +42,10 @@
     gap: 20px;
     color: white;
     box-shadow: 0 0 3mm rgba(174, 82, 194, 0.61);
+    cursor: pointer;
+}
+
+.button-skill:hover{
+    background-color: rgba(14, 182, 104);
+    color: black;
 }

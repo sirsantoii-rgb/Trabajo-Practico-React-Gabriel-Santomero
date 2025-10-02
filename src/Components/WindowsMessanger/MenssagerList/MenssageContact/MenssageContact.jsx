@@ -40,7 +40,7 @@ const ContactItem = (props) => {
                         <span className="clase">{contact.clase}</span>
                     </div>
                     <div className="game_info">
-                        <span className="contacto__frase"> {contact.frase}</span>
+                        <span className="contacto__frase"> {contact.state}</span>
                         <span className="contacto__game">{contact.game}</span>
                     </div>
                 </div>

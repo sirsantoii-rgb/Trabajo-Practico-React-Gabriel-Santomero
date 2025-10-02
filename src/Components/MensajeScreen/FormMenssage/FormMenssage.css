@@ -1,7 +1,7 @@
 .form__menssage-container{
     height: 15vh;   
     width: 70%;
-    background-color: rgb(29, 2, 58);
+    background-color: rgb(31, 10, 56);
     position: fixed;
     bottom: 0; 
     border-top: 1px solid rgb(255, 255, 255);
@@ -15,10 +15,10 @@
 }
 
 .form__menssage{
-    width: 80%;
+    width: 100%;
     height: 50px;
     margin-top: 20px;
-    background-color:rgb(65, 4, 129) ;
+    background-color:rgb(66, 22, 119) ;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -29,12 +29,19 @@
 
 .form__menssage-text{
     border-radius: 8px;
-    width: 100%;
+    width: 40vw;
     height: 80%;
     border: none;
-    background-color: rgba(214, 101, 240, 0.726);
+    color:  black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(183, 188, 201);
     margin-left: 20px;
     margin-right: 20px;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
     box-shadow: 0 0 4mm rgba(214, 101, 240, 0.726);
 }
 
@@ -46,6 +53,22 @@
     justify-content: space-between;
     
 }
+
+.form__menssage-emoji{
+        width: 60px;
+    margin-right: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: rgba(14, 182, 104, 0) ;
+    color:  white;
+    cursor: pointer;
+}
+
+.form__menssage-emoji:hover{
+    color: rgba(14, 182, 104);
+    
+}
+
 
 .form__menssage-submit{
     width: 60px;

@@ -18,7 +18,7 @@ const HeaderMenssage = () => {
 
   if (!contact) {
     return (
-      <div className="header__user__menssage">
+      <div >
         <h2>Selecciona un contacto</h2>
       </div>
     );

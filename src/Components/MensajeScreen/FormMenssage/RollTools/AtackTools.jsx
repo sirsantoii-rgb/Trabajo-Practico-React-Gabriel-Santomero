@@ -1,6 +1,6 @@
 import React from 'react'
 import './AtackTools.css'
-
+import { GiGladius } from "react-icons/gi";
 
 const AtackTools = () => {
   return (
@@ -12,7 +12,7 @@ const AtackTools = () => {
             <span>=</span>
             <span>0</span>
         </div>
-        <button className='button-dice-atack atacar'>Atacar</button>
+        <button className='button-dice-atack atacar'><GiGladius size={20}/></button>
     </div>
   )
 }
