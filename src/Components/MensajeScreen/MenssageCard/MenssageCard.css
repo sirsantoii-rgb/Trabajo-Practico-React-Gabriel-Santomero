@@ -1,16 +1,16 @@
 .menssage__card{
-    min-height: 10vh;
+    min-height: 20%;
     width: 40%;
-    background-color: blueviolet;
+    background-color: rgb(87, 49, 117);
     border-radius: 5px ;
-    border: 1px solid rgb(89, 26, 104);
+    border: 1px solid rgb(214, 101, 240,);
     margin-left: 30px;
-    margin-top: 30px;
+    padding: 10px 0 10px 0;
     box-shadow: 0 0 4mm rgba(214, 101, 240, 0.671);
     z-index: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     
 }
 
@@ -19,18 +19,19 @@
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    margin-left: 15px;
+    margin-left: 16px;
 }
 
 .menssage__card__text{
      color: white;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15px;
+    margin-left: 16px;
+    text-wrap: wrap;
 }
 
 .menssage__card__date{
-     color: white;
+     color: black;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 300px

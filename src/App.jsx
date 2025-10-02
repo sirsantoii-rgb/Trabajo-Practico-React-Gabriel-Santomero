@@ -1,11 +1,13 @@
 import React from 'react'
 import WinowsMessanger from './Components/WindowsMessanger/WindowsMessanger'
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <WinowsMessanger/>
-    </div>
+    </BrowserRouter>
+    
   )
 }
 export default App

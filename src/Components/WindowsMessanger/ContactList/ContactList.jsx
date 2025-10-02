@@ -1,4 +1,6 @@
 import "./ContactList.css"
+
+
 import { BiSearchAlt2 } from "react-icons/bi";
 import { BiMessageSquareAdd } from "react-icons/bi";
 import { GiPerspectiveDiceSixFacesOne } from "react-icons/gi";

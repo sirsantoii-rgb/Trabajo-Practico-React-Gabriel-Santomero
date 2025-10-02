@@ -1,11 +1,12 @@
 .windows__messanger__list{
-    background-color: rgb(25, 7, 44);
+    background-color: rgb(152, 161, 188);
     width: 30vw;
-    height: 100%;
+    height: 100vh;
     border-right:1px solid rgb(124, 124, 124) ;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     margin-top: 200px;
+    overflow: hidden;
 }

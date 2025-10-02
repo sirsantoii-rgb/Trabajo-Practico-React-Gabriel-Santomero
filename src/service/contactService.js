@@ -1,4 +1,4 @@
-import contacts from "../data/contactsData";
+import contacts from "../data/contactData";
 export function getAllContacts (){
     return contacts
 }
@@ -8,4 +8,5 @@ export function getContactById (contact_id){
             return contact
         }
     }
+    
 }
