@@ -55,8 +55,8 @@
 }
 
 .form__menssage-emoji{
-        width: 60px;
-    margin-right: 20px;
+    width: 60px;
+    /* margin-right: 20px; */
     border: none;
     font-size: 15px;
     background-color: rgba(14, 182, 104, 0) ;
@@ -99,4 +99,17 @@
 .form__menssage__buttons__roll:hover{
     background-color: rgba(14, 182, 104);
     color: black;
+}
+
+/* ----------------------responsive 900px---------------- */
+@media screen and (max-width: 900px){
+    
+    .form__menssage-container{
+        width: 100%;
+    }
+
+    .display__none{
+        display: none;
+    }
+
 }

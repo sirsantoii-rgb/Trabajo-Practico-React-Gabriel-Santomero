@@ -51,7 +51,7 @@ const FormMenssage = ({ onCreateNewMessage }) => {
     <div className='form__menssage-container'>
       <div >
         <form className='form__menssage'  onSubmit={handleSubmit}>
-          <button className='form__menssage-emoji'><BiLandscape size={30} /></button>
+          <button className='form__menssage-emoji display__none'><BiLandscape size={30} /></button>
           <button className='form__menssage-emoji'><BiPlusCircle size={30} /></button>
           <textarea id='mensaje' name='mensaje' className='form__menssage-text' />
           <button type="submit" className='form__menssage-submit'>

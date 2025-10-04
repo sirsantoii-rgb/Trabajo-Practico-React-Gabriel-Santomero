@@ -16,6 +16,7 @@
 }
 
 
+
 .name__user__menssagecard{
     color: white;
     font-size: 13px;
@@ -37,4 +38,12 @@
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 300px
+}
+
+/* ----------------------responsive 900px---------------- */
+
+@media screen and (max-width: 900px) {
+    .menssage__card{
+        width: 80vw;
+    }
 }

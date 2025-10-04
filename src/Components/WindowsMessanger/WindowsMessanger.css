@@ -22,3 +22,24 @@
     overflow-y: hidden; 
     
 }
+
+
+/* ----------------------responsive 900px---------------- */
+
+@media (max-width: 900px) {
+  .windows__messanger {
+    flex-direction: column;
+  }
+
+  .windows__messanger__contact-list{
+    width: 100%;
+  }
+  
+  .windows__messanger__menssage {
+    width: 100%;
+  }
+
+  .oculto {
+    display: none;
+  }
+}

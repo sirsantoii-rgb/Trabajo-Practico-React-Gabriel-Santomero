@@ -15,16 +15,16 @@ const ContactList = () => {
             <nav className="contact__list__nav">
                 <div className="contact__list__nav__header">
                     <h1 className="contact__list__nav__logo"><GiMagicGate size={40} />RPG Messenger</h1>
-                    <button className="contact__list__button-newcontact"> <BiMessageSquareAdd size={15}/>  Nueva Conversacion</button>
+                    <button className="contact__list__button-newcontact"> <BiMessageSquareAdd size={15}/> <span className="contact__list__button-text display-none">Nueva Conversacion</span> </button>
                 </div>
                 <div className="contact__list__nav__searchbar">
                     <input type="search" className="contact__list__nav__search" />
                     <button className="button-header-contactlist"> <BiSearchAlt2 size={14} /> </button>
                 </div>
                 <div className="contact__list__nav__buttons">
-                    <button className="button-header-contactlist"><GiPerspectiveDiceSixFacesOne size={20} />  <span>Roll</span></button>
-                    <button className="button-header-contactlist"> <GiSwordsEmblem  size={20} /> Games</button>
-                    <button className="button-header-contactlist"><GiFreemasonry size={20}/>  Campañas</button>
+                    <button className="button-header-contactlist"><GiPerspectiveDiceSixFacesOne size={20} />  <span className="contact__list__button-text">Roll</span></button>
+                    <button className="button-header-contactlist"> <GiSwordsEmblem  size={20} /> <span className="contact__list__button-text">Games</span></button>
+                    <button className="button-header-contactlist"><GiFreemasonry size={20}/>  <span className="contact__list__button-text">Campañas</span></button>
                 </div>
             </nav>
             
