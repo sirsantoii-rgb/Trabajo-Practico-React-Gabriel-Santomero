@@ -6,13 +6,20 @@
 
 .contact__list{
     background-color: rgb(82, 24, 145);
-    width: 30%;
+    width: 30vw;
     height: 201px;
     border-right:1px solid rgb(124, 124, 124) ;
     position: fixed;
     top: 0;
     z-index: 1000;
 }
+
+.contact__list__nav__logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 
 .contact__list__nav{
     width: 100%;

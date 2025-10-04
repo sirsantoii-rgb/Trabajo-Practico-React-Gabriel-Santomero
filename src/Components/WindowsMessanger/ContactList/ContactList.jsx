@@ -6,6 +6,7 @@ import { BiMessageSquareAdd } from "react-icons/bi";
 import { GiPerspectiveDiceSixFacesOne } from "react-icons/gi";
 import { GiSwordsEmblem } from "react-icons/gi";
 import { GiFreemasonry } from "react-icons/gi";
+import { GiMagicGate } from "react-icons/gi";
 
 
 const ContactList = () => {
@@ -13,7 +14,7 @@ const ContactList = () => {
         <div className="contact__list">
             <nav className="contact__list__nav">
                 <div className="contact__list__nav__header">
-                    <h1>Logo</h1>
+                    <h1 className="contact__list__nav__logo"><GiMagicGate size={40} />RPG Messenger</h1>
                     <button className="contact__list__button-newcontact"> <BiMessageSquareAdd size={15}/>  Nueva Conversacion</button>
                 </div>
                 <div className="contact__list__nav__searchbar">

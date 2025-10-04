@@ -1,7 +1,7 @@
 .windows__messanger__list{
     background-color: rgb(152, 161, 188);
     width: 30vw;
-    height: 100vh;
+    
     border-right:1px solid rgb(124, 124, 124) ;
     display: flex;
     flex-direction: column;
