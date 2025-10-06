@@ -56,7 +56,6 @@
 
 .form__menssage-emoji{
     width: 60px;
-    /* margin-right: 20px; */
     border: none;
     font-size: 15px;
     background-color: rgba(14, 182, 104, 0) ;
@@ -112,4 +111,13 @@
         display: none;
     }
 
+}
+
+/* ----------------------responsive 900px---------------- */
+
+@media screen and (max-width: 900px){
+    .form__menssage-container{
+    height: 17vh;
+    bottom: 0px; 
+}
 }

@@ -60,14 +60,14 @@ const FormMenssage = ({ onCreateNewMessage }) => {
         </form>
       </div>
       <div className='form__menssage__buttons'>
-        <button type="button" className='form__menssage__buttons__roll' onClick={toggleDiceMenu}>
-          <GiDiceSixFacesSix /> Roll
+        <button type="button" className='form__menssage__buttons__roll ' onClick={toggleDiceMenu}>
+          <GiDiceSixFacesSix /> <span className='display__none'>Roll</span> 
         </button>
         <button type="button" className='form__menssage__buttons__roll' onClick={toggleAtackMenu}>
-          <GiGladius /> Ataque
+          <GiGladius /> <span className='display__none'> Ataque </span>  
         </button>
         <button type="button" className='form__menssage__buttons__roll' onClick={toggleSkillsMenu}>
-          <GiHeavyRain /> Skills
+          <GiHeavyRain /> <span className='display__none'> Skills </span> 
         </button>
       </div>
       

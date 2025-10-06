@@ -6,8 +6,15 @@
 
 .menssage__screen{
     position: absolute;
-    width: 100%;
+    width: 70vw;
     height: 100%;
     top: 100px;
     overflow-y: scroll;
+}
+
+/* ----------------------responsive 900px---------------- */
+@media screen and (max-width: 900px){
+    .menssage__screen{
+    width: 100vw;
+    }
 }

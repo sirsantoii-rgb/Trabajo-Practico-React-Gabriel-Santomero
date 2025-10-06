@@ -20,7 +20,7 @@ const MenssagerScreen = (props) => {
 }
   )
   return (
-    <div>
+    <div >
       {messages_list_JSX}
     </div>
   )

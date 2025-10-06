@@ -1,5 +1,7 @@
 .menssager__screen{
     margin-top: 15px;
-    width: 100%;
+    width: 70vw;
+    overflow-x: hidden;
     
 }
+
