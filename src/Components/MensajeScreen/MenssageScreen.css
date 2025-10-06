@@ -5,3 +5,10 @@
     
 }
 
+/* ----------------------responsive 900px---------------- */
+@media screen and (max-width: 900px){
+    .menssager__screen{
+    
+    width: 100vw;
+    }
+}
