@@ -66,3 +66,13 @@
     color: white;
     font-size: 20px;
 }
+
+
+/* -----------------------------responsive 455px---------------- */
+
+@media (max-width: 400px) {
+    .button-dice{
+    width: 30px;
+    height: 30px;
+    }
+}

@@ -105,19 +105,18 @@
     
     .form__menssage-container{
         width: 100%;
+        height: 17vh;
+        bottom: 0px; 
     }
 
     .display__none{
         display: none;
     }
 
+
+    .form__menssage-text{
+        margin-left: 0px;
+        
+    }
 }
 
-/* ----------------------responsive 900px---------------- */
-
-@media screen and (max-width: 900px){
-    .form__menssage-container{
-    height: 17vh;
-    bottom: 0px; 
-}
-}

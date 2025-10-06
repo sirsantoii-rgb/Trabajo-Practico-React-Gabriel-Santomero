@@ -172,3 +172,19 @@
     margin: 0 10px 0 10px;
 
 }
+
+/* -----------------------------responsive 700px---------------- */
+
+@media (max-width: 700px) {
+    .stats__menu__container{
+        width: 60% ;
+    }
+}
+
+/* -----------------------------responsive 455px---------------- */
+
+@media (max-width: 455px) {
+    .stats__menu__container{
+        width: 100% ;
+    }
+}
