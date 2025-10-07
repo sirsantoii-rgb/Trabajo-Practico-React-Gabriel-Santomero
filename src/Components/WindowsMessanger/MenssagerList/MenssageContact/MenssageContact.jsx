@@ -28,7 +28,7 @@ const MenssageContact = () => {
 const ContactItem = (props) => {
     const contact = props.contact
     return (
-        <Link to= {'/contacto/' + contact.id}>
+        <Link to= {'/contacto/' + contact.id} >
         <div className="menssage__contact">
             <div className="contacto__info">
                 <img className="contacto" src= {contact.profile_img}  />

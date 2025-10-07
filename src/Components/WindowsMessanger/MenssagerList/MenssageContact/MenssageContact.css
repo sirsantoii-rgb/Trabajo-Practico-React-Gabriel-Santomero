@@ -8,15 +8,21 @@
     display: flex;
     justify-content: left;
     align-items: center
+    
+    
 }
+
+a:hover .menssage__contact {
+  background-color: rgb(12, 8, 15);
+  box-shadow: 0 0 4mm rgba(29, 16, 32, 0.788);
+  cursor: pointer;
+}
+
 
 .contacto__info{
     margin-left: 20px;
-    
     display: flex;
     flex-direction: row;
-    
-    
 }
 
 .contacto{
