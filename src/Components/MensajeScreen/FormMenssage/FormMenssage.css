@@ -3,6 +3,7 @@
     width: 70%;
     background-color: rgb(31, 10, 56);
     position: fixed;
+    z-index: 1000;
     bottom: 0; 
     border-top: 1px solid rgb(255, 255, 255);
     display: flex;
