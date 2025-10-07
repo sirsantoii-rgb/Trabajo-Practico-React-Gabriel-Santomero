@@ -3,7 +3,7 @@ const contacts = [
         id: 1,
         name: 'Gabriel Roll',
         last_time_connected: '16 de octubre del 2022',
-        isOnline: "Online",
+        isOnline: "Offline",
         profile_img: 'https://images.imagenmia.com/example_images/1728239357756-92ab43c0-ff78-40d6-8ffb-fb7d648e0421.webp',
         state: 'Aprendiendo a jugar',
         level: "Lv. 10",

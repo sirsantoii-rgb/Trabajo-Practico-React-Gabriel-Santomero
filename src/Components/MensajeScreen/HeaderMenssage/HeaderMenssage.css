@@ -162,6 +162,7 @@
     
     .header__user__menssage{
         width: 100%;
+
     }
 
     .header__stats-button{
@@ -186,6 +187,15 @@
 }
 /* ----------------------responsive 320px---------------- */
 @media screen and (max-width: 320px){
+        .header__user__menssage{
+        height: 14%;
+
+    }
+
+        .header__user__name{
+        font-size: 14px;
+    }
+
         .header__stats-button{
         height: 30px;
         width: 30px;

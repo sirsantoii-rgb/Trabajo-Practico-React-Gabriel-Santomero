@@ -3,7 +3,7 @@
     width: 70%;
     background-color: rgb(31, 10, 56);
     position: fixed;
-    z-index: 1000;
+    z-index: 10;
     bottom: 0; 
     border-top: 1px solid rgb(255, 255, 255);
     display: flex;
@@ -18,7 +18,6 @@
 .form__menssage{
     width: 100%;
     height: 50px;
-    margin-top: 20px;
     background-color:rgb(66, 22, 119) ;
     border-radius: 5px;
     display: flex;
@@ -31,7 +30,7 @@
 .form__menssage-text{
     border-radius: 8px;
     width: 40vw;
-    height: 80%;
+    height: 50%;
     border: none;
     color:  black;
     font-size: 18px;
@@ -41,6 +40,8 @@
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
+    resize: none;
+    overflow: hidden;
     align-items: center;
     word-wrap: break-word;
     box-shadow: 0 0 4mm rgba(214, 101, 240, 0.726);
@@ -77,6 +78,10 @@
     font-size: 15px;
     background-color: rgb(14, 182, 104) ;
     color:  white;
+}
+
+.form__menssage-emoji-button{
+    font-size: 30px;
 }
 
 .form__menssage__buttons__roll{
@@ -119,5 +124,33 @@
         margin-left: 0px;
         
     }
+
+
+    
+
+    .form__menssage-submit{
+    width: 60px;
+    margin-right: 15px;
+    border-radius: 2px;
+    }
+
+    .form__menssage-emoji-button{
+    font-size: 20px;
 }
 
+
+}
+
+/* ----------------------responsive 400px---------------- */
+@media screen and (max-width: 400px){
+        .form__menssage{
+        height: 40px;
+        margin-top: 10px;
+    }
+
+.form__menssage-submit{
+    margin-right: 10px;
+    border-radius: 2px;
+    }
+
+}

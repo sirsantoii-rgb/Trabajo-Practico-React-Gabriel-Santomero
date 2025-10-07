@@ -13,6 +13,8 @@
     z-index: 1000;
     right: 0px;
     top: 10vh;
+    z-index: 1001;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;

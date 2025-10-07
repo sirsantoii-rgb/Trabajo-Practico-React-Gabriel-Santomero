@@ -35,8 +35,8 @@
 }
 
 .button-dice-atack{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: rgba(14, 182, 104);
     border-radius: 5px;
     border: 1px solid rgb(134, 133, 134);
@@ -48,4 +48,6 @@
 
 .atacar{
     background-color: brown;
+    height: 30px;
+    width: 60px;
 }

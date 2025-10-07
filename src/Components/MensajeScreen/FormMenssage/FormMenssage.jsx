@@ -52,10 +52,10 @@ const FormMenssage = ({ onCreateNewMessage }) => {
       <div >
         <form className='form__menssage'  onSubmit={handleSubmit}>
           <button className='form__menssage-emoji display__none'><BiLandscape size={30} /></button>
-          <button className='form__menssage-emoji'><BiPlusCircle size={30} /></button>
+          <button className='form__menssage-emoji'><BiPlusCircle className='form__menssage-emoji-button' /></button>
           <textarea id='mensaje' name='mensaje' className='form__menssage-text' />
-          <button type="submit" className='form__menssage-submit'>
-            <TiPencil size={30}/>
+          <button type="submit" className='form__menssage-submit '>
+            <TiPencil className='form__menssage-emoji-button'/>
           </button>
         </form>
       </div>
