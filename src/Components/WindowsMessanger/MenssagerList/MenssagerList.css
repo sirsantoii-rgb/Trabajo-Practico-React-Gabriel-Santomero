@@ -16,8 +16,16 @@
   .windows__messanger__list{
     width: 100%;
     height: 100vh;
-    margin-top: 152px;
+    margin-top: 200px;
   }
 
   
+}
+
+
+/* ----------------------responsive 320px---------------- */
+@media (max-width: 320px) {
+  .windows__messanger__list{
+    margin-top: 150px;
+}
 }
