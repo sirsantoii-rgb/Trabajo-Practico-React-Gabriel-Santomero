@@ -16,7 +16,7 @@
     border-radius: 5px ;
     border: 1px solid rgb(214, 101, 240,);
     padding: 10px 0 10px 0;
-    box-shadow: 0 0 4mm rgba(214, 101, 240, 0.671);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.637);  
     z-index: 1;
     display: flex;
     align-self: flex-start;
@@ -34,10 +34,10 @@
     border-radius: 5px ;
     border: 1px solid rgb(214, 101, 240,);
     padding: 10px 0 10px 0;
-    box-shadow: 0 0 4mm rgba(29, 114, 12, 0.671);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.637);  
     z-index: 1;
     display: flex;
-    align-self: flex-end;
+    align-self: flex-end ;
     margin-right: 15px;
     flex-direction: column;
     gap: 10px;
